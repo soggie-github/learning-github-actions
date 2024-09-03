@@ -18,4 +18,4 @@ jobs:
     
           - name: Run Python Script
             run: |
-                python hello-world.py
+                cd ../learning-github-actions && python hello-world.py
