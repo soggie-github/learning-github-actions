@@ -18,4 +18,4 @@ jobs:
     
           - name: Run Python Script
             run: |
-              python learning-github-actions/hello-world.py
+              python scripts/hello-world.py
