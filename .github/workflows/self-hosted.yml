@@ -14,7 +14,7 @@ jobs:
     steps:
     - name: Install tree
       run: |
-        apt-get update
-        apt-get install tree
+        sudo apt-get update
+        sudo apt-get install tree
     - name: Execute tree
       run: time tree | tee filetreelist.txt
